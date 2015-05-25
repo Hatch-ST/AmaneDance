@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Character">
+      <UniqueIdentifier>{69a0689f-2567-4939-a2d8-350a45057842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Data">
+      <UniqueIdentifier>{2dfec517-f3b5-41b8-ae99-c28ae5f0be2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Grade">
+      <UniqueIdentifier>{56e3db1e-9071-4ea8-971a-c4fc2ce7a596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Layer">
+      <UniqueIdentifier>{ef084617-5f34-4350-9d35-024f699a794c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Progress">
+      <UniqueIdentifier>{24623273-6acb-46e9-b203-92828f040651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scene">
+      <UniqueIdentifier>{43906078-395d-4cbc-ad88-bee96a0c712e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Score">
+      <UniqueIdentifier>{9a80ce5e-628b-46d5-a6e2-be54df101fa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\SSPlayer">
+      <UniqueIdentifier>{77f76758-edb4-4d32-aef4-2df685be27bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Touch">
+      <UniqueIdentifier>{f7ccfb8e-6450-475d-9aaa-13f32139d9b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Navigator.cpp">
+      <Filter>Classes\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayerCharacter.cpp">
+      <Filter>Classes\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ValueEffect.cpp">
+      <Filter>Classes\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MotionData.cpp">
+      <Filter>Classes\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MusicData.cpp">
+      <Filter>Classes\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ScoreData.cpp">
+      <Filter>Classes\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SEData.cpp">
+      <Filter>Classes\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BestGrade.cpp">
+      <Filter>Classes\Grade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GradeManager.cpp">
+      <Filter>Classes\Grade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NumberSprite.cpp">
+      <Filter>Classes\Grade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ResultGrade.cpp">
+      <Filter>Classes\Grade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\OptionLayer.cpp">
+      <Filter>Classes\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PauseLayer.cpp">
+      <Filter>Classes\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Touch.cpp">
+      <Filter>Classes\Touch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TouchEffect.cpp">
+      <Filter>Classes\Touch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TouchManager.cpp">
+      <Filter>Classes\Touch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SS5Player.cpp">
+      <Filter>Classes\SSPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SSPlayer.cpp">
+      <Filter>Classes\SSPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Note.cpp">
+      <Filter>Classes\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NoteHold.cpp">
+      <Filter>Classes\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NoteHoldSprite.cpp">
+      <Filter>Classes\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NoteTap.cpp">
+      <Filter>Classes\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NoteTapSprite.cpp">
+      <Filter>Classes\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\OnePhraseScore.cpp">
+      <Filter>Classes\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ScoreManager.cpp">
+      <Filter>Classes\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MusicSelectScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ResultScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SceneCreater.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TitleScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MusicProgress.cpp">
+      <Filter>Classes\Progress</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppMacros.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Navigator.h">
+      <Filter>Classes\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayerCharacter.h">
+      <Filter>Classes\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ValueEffect.h">
+      <Filter>Classes\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MotionData.h">
+      <Filter>Classes\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MusicData.h">
+      <Filter>Classes\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ScoreData.h">
+      <Filter>Classes\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SEData.h">
+      <Filter>Classes\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BestGrade.h">
+      <Filter>Classes\Grade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GradeManager.h">
+      <Filter>Classes\Grade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NumberSprite.h">
+      <Filter>Classes\Grade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ResultGrade.h">
+      <Filter>Classes\Grade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\OptionLayer.h">
+      <Filter>Classes\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PauseLayer.h">
+      <Filter>Classes\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Touch.h">
+      <Filter>Classes\Touch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TouchEffect.h">
+      <Filter>Classes\Touch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TouchManager.h">
+      <Filter>Classes\Touch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SS5Player.h">
+      <Filter>Classes\SSPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SS5PlayerData.h">
+      <Filter>Classes\SSPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SSPlayer.h">
+      <Filter>Classes\SSPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SSPlayerData.h">
+      <Filter>Classes\SSPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ssShader_frag.h">
+      <Filter>Classes\SSPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Note.h">
+      <Filter>Classes\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NoteHold.h">
+      <Filter>Classes\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NoteTap.h">
+      <Filter>Classes\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NoteTapSprite.h">
+      <Filter>Classes\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\OnePhraseScore.h">
+      <Filter>Classes\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ScoreManager.h">
+      <Filter>Classes\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NoteHoldSprite.h">
+      <Filter>Classes\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MusicSelectScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ResultScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SceneCreater.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TitleScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MusicProgress.h">
+      <Filter>Classes\Progress</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
